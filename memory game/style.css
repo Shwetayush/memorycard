@@ -1,0 +1,6 @@
+.memory{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 300px;
+}
