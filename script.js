@@ -26,6 +26,54 @@ document.addEventListener('DOMContentLoaded', () => {
         img: 'images/horse6.png'
       },
       {
+        name: '1',
+        img: 'images/1.png'
+      },
+      {
+        name: '2',
+        img: 'images/2.png'
+      },
+      {
+        name: '3',
+        img: 'images/3.png'
+      },
+      {
+        name: '4',
+        img: 'images/4.png'
+      },
+      {
+        name: '5',
+        img: 'images/5.png'
+      },
+      {
+        name: '6',
+        img: 'images/6.png'
+      },
+      {
+        name: '7',
+        img: 'images/7.png'
+      },
+      {
+        name: '8',
+        img: 'images/8.png'
+      },
+      {
+        name: '9',
+        img: 'images/9.png'
+      },
+      {
+        name: '10',
+        img: 'images/10.png'
+      },
+      {
+        name: '11',
+        img: 'images/11.png'
+      },
+      {
+        name: '12',
+        img: 'images/12.png'
+      },
+      {
         name: 'horse1',
         img: 'images/horse1.png'
       },
@@ -48,6 +96,54 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         name: 'horse6',
         img: 'images/horse6.png'
+      },
+      {
+        name: '1',
+        img: 'images/1.png'
+      },
+      {
+        name: '2',
+        img: 'images/2.png'
+      },
+      {
+        name: '3',
+        img: 'images/3.png'
+      },
+      {
+        name: '4',
+        img: 'images/4.png'
+      },
+      {
+        name: '5',
+        img: 'images/5.png'
+      },
+      {
+        name: '6',
+        img: 'images/6.png'
+      },
+      {
+        name: '7',
+        img: 'images/7.png'
+      },
+      {
+        name: '8',
+        img: 'images/8.png'
+      },
+      {
+        name: '9',
+        img: 'images/9.png'
+      },
+      {
+        name: '10',
+        img: 'images/10.png'
+      },
+      {
+        name: '11',
+        img: 'images/11.png'
+      },
+      {
+        name: '12',
+        img: 'images/12.png'
       }
     ]
   
@@ -79,19 +175,17 @@ document.addEventListener('DOMContentLoaded', () => {
       if(optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
-      
+       // alert('You have clicked the same image!')
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
-       
-       // cards[optionOneId].setAttribute('src', 'images/white.png')
-        //cards[optionTwoId].setAttribute('src', 'images/white.png')
+        //alert('You found a match')
         cards[optionOneId].removeEventListener('click', flipCard)
         cards[optionTwoId].removeEventListener('click', flipCard)
         cardsWon.push(cardsChosen)
       } else {
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
-        
+        //alert('Sorry, try again')
       }
       cardsChosen = []
       cardsChosenId = []
@@ -115,4 +209,5 @@ document.addEventListener('DOMContentLoaded', () => {
   
     createBoard()
   })
+  
   
