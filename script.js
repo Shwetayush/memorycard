@@ -1,30 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
-      {
-        name: 'horse1',
-        img: 'images/horse1.png'
-      },
-      {
-        name: 'horse2',
-        img: 'images/horse2.png'
-      },
-      {
-        name: 'horse3',
-        img: 'images/horse3.png'
-      },
-      {
-        name: 'horse4',
-        img: 'images/horse4.png'
-      },
-      {
-        name: 'horse5',
-        img: 'images/horse5.png'
-      },
-      {
-        name: 'horse6',
-        img: 'images/horse6.png'
-      },
+    
       {
         name: '1',
         img: 'images/1.png'
@@ -41,10 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: '4',
         img: 'images/4.png'
       },
-      {
-        name: '5',
-        img: 'images/5.png'
-      },
+    
       {
         name: '6',
         img: 'images/6.png'
@@ -69,34 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: '11',
         img: 'images/11.png'
       },
-      {
-        name: '12',
-        img: 'images/12.png'
-      },
-      {
-        name: 'horse1',
-        img: 'images/horse1.png'
-      },
-      {
-        name: 'horse2',
-        img: 'images/horse2.png'
-      },
-      {
-        name: 'horse3',
-        img: 'images/horse3.png'
-      },
-      {
-        name: 'horse4',
-        img: 'images/horse4.png'
-      },
-      {
-        name: 'horse5',
-        img: 'images/horse5.png'
-      },
-      {
-        name: 'horse6',
-        img: 'images/horse6.png'
-      },
+     
       {
         name: '1',
         img: 'images/1.png'
@@ -113,10 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: '4',
         img: 'images/4.png'
       },
-      {
-        name: '5',
-        img: 'images/5.png'
-      },
+    
       {
         name: '6',
         img: 'images/6.png'
@@ -140,10 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         name: '11',
         img: 'images/11.png'
-      },
-      {
-        name: '12',
-        img: 'images/12.png'
       }
     ]
   
@@ -209,5 +149,4 @@ document.addEventListener('DOMContentLoaded', () => {
   
     createBoard()
   })
-  
   
