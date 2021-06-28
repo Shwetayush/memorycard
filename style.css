@@ -1,6 +1,6 @@
 .memory{
     display: flex;
     flex-wrap: wrap;
-    width: 1600px;
+    width: 1500px;
     height: 300px;
 }
